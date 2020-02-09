@@ -1,0 +1,12 @@
+<%- include ("partials/header") %>
+
+<h1>loving programming languages: <%= lang.toUpperCase() %> </h1>
+
+
+<% if(lang.toUpperCase() == "C++"){ %>
+	<p>this is best language</p>
+<%} else{ %>
+	<p>not much good as C++</p>
+<%}%>
+
+<%- include ("partials/footer") %>

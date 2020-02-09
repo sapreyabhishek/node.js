@@ -1,0 +1,11 @@
+<%- include ("partials/header") %>
+
+	<h1>HERE you languages are:</h1>
+
+<% for(var i=0;i<language.length;i++){ %>
+	<li> 
+		<%= language[i].name %> - <%= language[i].author %> 
+	</li>
+<% } %>
+
+<%- include ("partials/footer") %>
